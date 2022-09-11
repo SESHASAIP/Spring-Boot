@@ -1,0 +1,20 @@
+<html xmlns:th="http://www.thymeleaf.org"></html><!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+Dogs displayed!
+<!--using the HttpRequest and HttpSession  
+<p th:text="Hello+' '+${session.dogNameDisplay}"> -->
+
+<!--using the model and view methods  -->
+<!-- <p th:text="Hello+' '+${session.dogNameDisplay}"></p> -->
+
+
+<!--using the model and view methods and passing object(Dog) as a argument  -->
+<p th:text="Hello+' '+${dogNameDisplay}"></p> 
+</p>
+</body>
+</html>
